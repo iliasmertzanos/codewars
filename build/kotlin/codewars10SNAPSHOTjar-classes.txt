@@ -1,0 +1,1 @@
+/Users/mertzanidisi/korny/codewars/build/classes/kotlin/main/camelCase/MainKt$toCamelCase$1.class:/Users/mertzanidisi/korny/codewars/build/classes/kotlin/main/camelCase/MainKt.class:/Users/mertzanidisi/korny/codewars/build/classes/kotlin/main/camelCase/TestExample.class
