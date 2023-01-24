@@ -21,5 +21,4 @@ class BouncingBallTest {
     fun test2() {
         assertEquals(15, bouncingBall(30.0, 0.66, 1.5))
     }
-
 }
