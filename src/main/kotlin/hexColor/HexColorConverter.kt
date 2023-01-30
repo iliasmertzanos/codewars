@@ -1,3 +1,5 @@
+package hexColor
+
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import java.awt.Color
@@ -9,7 +11,7 @@ fun Color.toRGB() = RGB(this.red, this.green, this.blue)
 data class RGB(var r: Int, var g: Int, var b: Int)
 
 //BEST SOLUTION
-//fun hexStringToRGB(hexString: String): RGB = Color.decode(hexString).let { RGB(it.red, it.green, it.blue) }
+//fun hexColor.hexStringToRGB(hexString: String): hexColor.RGB = Color.decode(hexString).let { hexColor.RGB(it.red, it.green, it.blue) }
 
 class TestExample {
     @Test
