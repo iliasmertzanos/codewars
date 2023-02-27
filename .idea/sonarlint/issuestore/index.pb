@@ -15,3 +15,11 @@ S
 build.gradle.kts,d/b/dbcff70658daf80b53ce624f6adcaa529df5ed8d
 C
 settings.gradle.kts,7/4/749edfcc96398253e5b3416184e95c46621da850
+Q
+!src/main/kotlin/camelCase/Main.kt,d/c/dc10c2628e860032e21e09f41c572c075d7fbc71
+^
+.src/main/kotlin/highestLowest/HighestLowest.kt,2/a/2a56468e581f664c3e7b6f1719b20c3d0138c07c
+T
+$src/main/kotlin/twoSum/TwoSumKata.kt,c/2/c205e4397f731eb1cb8c36ad94908ed13371d046
+X
+(src/main/kotlin/bouncing/BouncingBall.kt,b/2/b2563c96c4480eba54c9c038581780746b681c18
