@@ -23,3 +23,7 @@ T
 $src/main/kotlin/twoSum/TwoSumKata.kt,c/2/c205e4397f731eb1cb8c36ad94908ed13371d046
 X
 (src/main/kotlin/bouncing/BouncingBall.kt,b/2/b2563c96c4480eba54c9c038581780746b681c18
+T
+$src/main/kotlin/athleticStat/Stat.kt,d/7/d7e26ca53e472ea087976a1228349502834287de
+]
+-src/main/kotlin/hexColor/HexColorConverter.kt,3/2/323a63524e8edb2e762a8b2182a25db7837da51c
