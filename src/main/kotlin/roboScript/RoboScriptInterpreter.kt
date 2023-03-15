@@ -13,7 +13,7 @@ class RoboScriptInterpreter {
     }
 
     private fun interpretCode(code: String): MutableList<String> {
-        val p = Pattern.compile("F\\d+|F+\\d+|F+|R+\\d+|R\\d+|R+|L+\\d+|L\\d+|L+|\\(|\\)+")
+        val p = Pattern.compile("f\\d+|f+\\d+|f+|r+\\d+|r\\d+|r+|l+\\d+|l\\d+|l+|\\(|\\)+")
         val m = p.matcher(code)
         val tokens: MutableList<String> = LinkedList()
         while (m.find()) {
@@ -23,9 +23,9 @@ class RoboScriptInterpreter {
     }
 
     private fun createRoboCommands(command: String): RoboCommand = when {
-        command.contains("F") -> Forward(command)
-        command.contains("L") -> Left(command)
-        command.contains("R") -> Right(command)
+        command.contains("F") || command.contains("f") -> Forward(command)
+        command.contains("L") || command.contains("l") -> Left(command)
+        command.contains("R") || command.contains("r") -> Right(command)
         else -> throw IllegalArgumentException(" $command not supported. ")
     }
 }

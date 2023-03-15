@@ -27,7 +27,6 @@ class Left(commands: String) : RoboCommand(commands) {
     override fun specialMove(grid: Grid) {
         grid.turnPointerLeft()
     }
-
 }
 
 class Right(commands: String) : RoboCommand(commands) {
