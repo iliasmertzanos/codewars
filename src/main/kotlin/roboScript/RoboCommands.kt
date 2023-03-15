@@ -5,7 +5,7 @@ abstract class RoboCommand(private val commands: String) {
         when {
             commands.matches(Regex(".*\\d.*")) -> {
                 val times = commands.filter { it.isDigit() }.toInt();
-                repeat(times) { specialMove(grid) }
+                if(times>0) repeat(times) { specialMove(grid) }
                 commands.filter { !it.isDigit() }.dropLast(1).forEach { _ -> specialMove(grid) }
             }
 
