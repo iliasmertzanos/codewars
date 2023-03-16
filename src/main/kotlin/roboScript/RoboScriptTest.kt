@@ -7,19 +7,9 @@ class RoboScriptTest {
 
     @Test
     fun sampleTests() {
-//        assertPathEquals("LF5(RF3)(RF3R)F7", "    ****\r\n    *  *\r\n    *  *\r\n********\r\n    *   \r\n    *   ")
-//        assertPathEquals(
-//            "(L(F5(RF3))(((R(F3R)F7))))",
-//            "    ****\r\n    *  *\r\n    *  *\r\n********\r\n    *   \r\n    *   "
-//        )
-        assertPathEquals(
-            "F4L(F4RF4RF4LF4L)2F4RF4RF4",
+        assertPathEquals("((L14F11RR10R1L10R16F8L6RF17LR4L4F2(R16R3L3LF1LLR1L19))3)15L",
             "    *****   *****   *****\r\n    *   *   *   *   *   *\r\n    *   *   *   *   *   *\r\n    *   *   *   *   *   *\r\n*****   *****   *****   *"
         )
-//        assertPathEquals(
-//            "F4L((F4R)2(F4L)2)2(F4R)2F4",
-//            "    *****   *****   *****\r\n    *   *   *   *   *   *\r\n    *   *   *   *   *   *\r\n    *   *   *   *   *   *\r\n*****   *****   *****   *"
-//        )
     }
 
     private fun assertPathEquals(code: String, expected: String) {
